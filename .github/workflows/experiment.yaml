@@ -7,7 +7,8 @@ jobs:
     exp1:
         runs-on: macos-latest
         steps:
+            - run: echo "$OSTYPE"
+            - run: uname -s
             - run: uname -a
             - run: uname -m
-            - run: uname -i
             - run: uname -p
