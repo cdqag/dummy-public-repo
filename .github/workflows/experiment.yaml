@@ -1,0 +1,11 @@
+name: Experiment
+
+on:
+    workflow_dispatch:
+
+jobs:
+    exp1:
+        runs-on: macos-latest
+        steps:
+            - run: uname -a
+
